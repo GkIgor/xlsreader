@@ -20,7 +20,7 @@ var readCmd = &cobra.Command{
 			os.Exit(1)
 			return
 		}
-		reader.ReadXLSX(filepath, sheetName)
+		reader.Ready(filepath, sheetName)
 	},
 }
 
