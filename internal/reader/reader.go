@@ -59,6 +59,7 @@ func OpenExcel(coreSheet *models.CoreSheet) {
 	}
 
 	coreSheet.SheetNames = sheetnames
+	coreSheet.File = f
 
 	xlsx.OpenXLSX(coreSheet)
 }
