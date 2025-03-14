@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/GkIgor/xlsreader/cmd"
+	"github.com/GkIgor/xlsreader/internal/screen"
 )
 
 func main() {
-	cmd.Execute()
+	screen.InitScreen()
 }
